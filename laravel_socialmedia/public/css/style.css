@@ -1,0 +1,47 @@
+
+
+.profile-header 
+
+{
+
+margin-top: -20px;
+
+background-image:url("{{ $user->profile_image_url }}")
+
+
+
+}
+
+.profile-header-wrapper
+
+{
+
+background-color: rgba(0, 0, 0, 0.6);
+padding: 200px;
+color: #fff;
+text-align: left;
+
+
+}
+
+.profile-header-wrapper h1 {
+
+	
+	 font-size: 50px;
+	 font-family: 'Oswald', sans-serif;
+
+
+}
+
+#file-upload {
+
+	display: none;
+}
+
+.custom-file-upload {
+
+	background-color: #e2e2e2; 
+	display: inline-block;
+	padding: 6px 12px;
+	cursor: pointer;
+}
